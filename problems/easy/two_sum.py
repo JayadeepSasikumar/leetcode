@@ -2,7 +2,7 @@ class Solution:
     def twoSum(self, nums, target):
         """
         Link to problem: https://leetcode.com/problems/two-sum/
-        
+
         Problem statement:
             Given an array of integers, return indices of the two
             numbers such that they add up to a specific target.
@@ -16,11 +16,11 @@ class Solution:
 
             Because nums[0] + nums[1] = 2 + 7 = 9,
             return [0, 1].
-        
+
         Args -
             nums - list, of int
             target - int
-        
+
         Pseudocode -
             1. Keep a dict locs = {element: position}
             2. For each item in nums,
@@ -30,7 +30,7 @@ class Solution:
                        return the indices of item and its complement.
                    if not:
                        add item: index to nums
-        
+
         Returns -
             result - list, of int, indices of the two elements found.
         """
